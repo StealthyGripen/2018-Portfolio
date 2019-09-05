@@ -1,0 +1,752 @@
+/* - Set body font to Barlow */
+/* - Set horizontal scroll to off */
+body {
+    font-family: 'Barlow',
+        sans-serif;
+    overflow-x: hidden;
+
+}
+
+/* Page fade-in */
+body {
+    opacity: 1;
+    transition: 500ms;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: 250ms;
+}
+
+/* Custom scrollbar */
+
+/* Scrollbar width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    /* border-radius: 10px; */
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #9c9c9c;
+
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #727171;
+}
+
+/* Set all Section properties */
+.section {
+    height: 100vh;
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.homepage-01 {}
+
+.homepage-02 {
+    margin-top: 50vh;
+    padding-top: 6vh;
+    background-color: #fff;
+    margin-bottom: 10vh;
+}
+
+.homepage-03 {
+    margin-top: -12vh;
+    padding-top: 10vh;
+    background-color: #fff;
+}
+
+.page-3 {
+    height: 200vh;
+}
+
+.page-4 {
+    height: 200vh;
+}
+
+.page-5 {
+    height: 200vh;
+}
+
+.page-6 {
+    height: 200vh;
+}
+
+.page-7 {
+    height: 200vh;
+}
+
+.page-8 {
+    height: 150vh;
+}
+
+.page-9 {
+    height: 300vh;
+}
+
+.main-title {
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 0vw;
+    font-weight: 700;
+    font-size: 4vw;
+}
+
+.main-img {
+    position: fixed;
+    width: 52vw;
+    margin: auto;
+    margin-top: 6vh;
+    margin-left: 18vw;
+}
+
+.portfolio-title {
+    margin-left: 1.5vw;
+    font-weight: 500;
+}
+
+.video-frame {
+    position: absolute;
+    width: 100vw;
+    z-index: 9;
+}
+
+/* Plyr Settings */
+.plyr {
+    width: 70vw;
+    margin: auto;
+}
+
+/* Remove styling on all a link tags */
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* Navbar Settings */
+/* Navbar container properties */
+.navbar {
+    padding-top: 1vh;
+    position: fixed;
+    z-index: 99;
+    background-color: #ffffff;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    width: 100vw;
+    height: 6vh;
+}
+
+/* Navbar row properties */
+.nav-row {
+    margin-left: 15vw;
+    width: 70vw;
+    height: 10vh;
+}
+
+/* Work button properties */
+.work-nav {
+    margin-left: 6%;
+    text-align: left;
+    width: 1vw;
+}
+
+.work-nav-text:hover {
+    font-weight: 700;
+}
+
+#highlighted {
+    font-weight: 700;
+}
+
+/* Name/Home button properties */
+.name-nav {
+    font-weight: 500;
+}
+
+.name-nav:hover {
+    font-weight: 700;
+}
+
+/* Info button properties */
+.info-nav {
+    margin-left: 88%;
+    text-align: right;
+    width: 1vw;
+}
+
+.info-nav-text:hover {
+    font-weight: 700;
+}
+
+
+.img-box {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 1% 0% 0% 2%;
+}
+
+/* Set properties for all images */
+img {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.project-logo {
+    position: absolute;
+    z-index: 5;
+    width: 10vw;
+    margin: 9vw 0vw 0vw 7vw;
+}
+
+.enact-logo {
+    position: absolute;
+    z-index: 5;
+    width: 5vw;
+    margin: 8vw 0vw 0vw 10vw;
+}
+
+.abide-logo {
+    position: absolute;
+    z-index: 5;
+    width: 12vw;
+    margin: 11vw 0vw 0vw 6vw;
+}
+
+.unquiet-logo {
+    position: absolute;
+    z-index: 5;
+    width: 9vw;
+    margin: 8vw 0vw 0vw 8vw;
+}
+
+.amidst-logo {
+    position: absolute;
+    z-index: 5;
+    width: 9vw;
+    margin: 11vw 0vw 0vw 7.5vw;
+}
+
+.project-title {
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+
+.main-page-container {
+    position: absolute;
+    margin-top: 82vh;
+    height: 30vh;
+    width: 100vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    /* background-color: #fff; */
+}
+
+.dtrh-title {
+    font-size: 8.0rem;
+    font-weight: 500;
+    margin-top: -10%;
+    margin-bottom: 4%;
+    color: #fff;
+}
+
+.enact-title {
+    font-size: 8.0rem;
+    font-weight: 500;
+    margin-top: -10%;
+    margin-bottom: 4%;
+    color: #000;
+}
+
+.unquiet-title {
+    font-size: 8.0rem;
+    font-weight: 500;
+    margin-top: -10%;
+    margin-bottom: 4%;
+    color: #000;
+}
+
+/* Work Page */
+.work-page {
+    padding-top: 20vh;
+}
+
+.work-titles {
+    padding: 1%;
+    font-weight: 500;
+    z-index: 99;
+    position: relative;
+}
+
+/* Down The Rabbit Hole Work Link */
+.dtrh-link:hover .work-titles {
+    font-weight: 700
+}
+
+.work-img {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -30vh;
+    margin-left: -20vh;
+    z-index: 0;
+    opacity: 0;
+    transition: 500ms;
+}
+
+.dtrh-link:hover .dtrh-img {
+    opacity: 1;
+    transition: 500ms;
+}
+
+/* Down The Rabbit Hole Work Link */
+.dtrh-link:hover .work-titles {
+    font-weight: 700
+}
+
+.work-img {
+    position: fixed;
+    width: 101vw;
+    height: 101vh;
+    margin-top: -32vh;
+    margin-left: -20vh;
+    z-index: 0;
+    opacity: 0;
+    transition: 500ms;
+}
+
+.dtrh-link:hover .dtrh-img {
+    opacity: 1;
+    transition: 500ms;
+}
+
+/* Apple Enact Link */
+.enact-link:hover .work-titles {
+    font-weight: 700
+}
+
+.enact-img {
+    position: fixed;
+    width: 101vw;
+    height: 101vh;
+    margin-top: -43vh;
+    margin-left: -20vh;
+    z-index: 0;
+    opacity: 0;
+    transition: 500ms;
+}
+
+.enact-link:hover .enact-img {
+    opacity: 1;
+    transition: 500ms;
+}
+
+/* Remove styling of all unordered list elements */
+ul {
+    list-style: none;
+    right: 0;
+}
+
+
+/* Projects navigation sidebar */
+.project-navbar {
+    position: fixed;
+    width: 11vw;
+    margin-top: 25vh;
+    /* margin-left: 86vw; */
+    text-align: right;
+    right: 0;
+}
+
+
+
+/* Styling on all inactive project nav elements */
+.nav-list {
+    font-weight: 400;
+    color: #a8a7a7;
+    opacity: 0.4;
+    font-size: 1.2vw;
+    margin-right: 1vw;
+    transition-duration: 250ms;
+}
+
+/* Styling on all hovered project nav elements */
+.nav-list:hover {
+    font-weight: 500;
+    color: #000000;
+    opacity: 0.6;
+    font-size: 1.4vw;
+    transition-duration: 400ms;
+}
+
+/* Styling on all active project nav elements */
+#proj-nav-1-active,
+#proj-nav-2-active,
+#proj-nav-3-active,
+#proj-nav-4-active,
+#proj-nav-5-active,
+#proj-nav-6-active,
+#proj-nav-7-active,
+#proj-nav-8-active,
+#proj-nav-9-active,
+#proj-nav-10-active,
+#proj-nav-11-active,
+#proj-nav-12-active {
+    font-weight: 500;
+    color: #000000;
+    font-size: 1.3vw;
+    opacity: 1;
+    transition-duration: 100ms;
+}
+
+
+
+/* Bottom project nav */
+.project-bottom-nav {
+    margin: 0%;
+    padding: 0%;
+    padding-top: 4%;
+    margin-left: 17vw;
+}
+
+.project-bottom-nav-dtrh {
+    margin: 0%;
+    padding: 0%;
+    padding-top: 60%;
+    margin-left: 17vw;
+}
+
+.project-bottom-nav-enact {
+    margin: 0%;
+    padding: 0%;
+    padding-top: 5%;
+    margin-left: 17vw;
+}
+
+.bottom-nav-text {
+    display: inline-block;
+    margin: 1vw;
+    font-weight: 500;
+    opacity: 0.4;
+    transition: 250ms;
+}
+
+.bottom-nav-text:hover {
+    opacity: 1;
+    transition: 250ms;
+}
+
+.info-title {
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 10vw;
+    font-weight: 700;
+    font-size: 4vw;
+}
+
+.info-img {
+    position: fixed;
+    width: 48vw;
+    margin: auto;
+    margin-top: 22vh;
+    margin-left: 24vw;
+}
+
+.info-description {
+    margin-top: 23vh;
+    margin-left: 70vw;
+}
+
+.social-links {
+    position: absolute;
+    /* margin-top: 80vh;
+    margin-left: 70vw; */
+}
+
+.social-li {
+    display: inline-block
+}
+
+.social-icon {
+    width: 1.5vw;
+    margin: 0.4vw;
+    opacity: 0.5;
+}
+
+.social-icon:hover {
+    opacity: 1;
+}
+
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.video-row {
+    height: 100%;
+    padding-top: 15%;
+}
+
+.content-row {
+    height: 100%;
+    padding-top: 5%;
+    padding-left: 1.5vw;
+}
+
+.enact-row {
+    height: 100%;
+    padding-top: 0%;
+    padding-left: 1.5vw;
+}
+
+.darken-block {
+    width: 100%;
+    height: 90%;
+    background-color: #000000;
+    padding: 0%;
+    margin: 0%;
+    z-index: 1;
+}
+
+.loop-video {
+    opacity: 0.8;
+    margin-bottom: -1.5%;
+    transition: 500ms;
+}
+
+.darken-block:hover .loop-video {
+    opacity: 1;
+    transition: 500ms;
+}
+
+#case-study {
+    width: 100vw;
+}
+
+/* Styling for image slider buttons */
+/* Previous arrow */
+.prev-arrow {
+    position: absolute;
+    width: 1vw;
+    margin-left: -3vw;
+    margin-top: -46vh;
+    opacity: 0.5;
+}
+
+/* Previous arrow hover */
+.prev-arrow:hover {
+    opacity: 1;
+    transition: 250ms;
+    cursor: pointer;
+}
+
+/* Next arrow */
+.next-arrow {
+    position: absolute;
+    width: 1vw;
+    margin-top: -46vh;
+    margin-left: 62vw;
+    opacity: 0.5;
+}
+
+/* Next arrow hover */
+.next-arrow:hover {
+    opacity: 1;
+    transition: 250ms;
+    cursor: pointer;
+}
+
+.bai-center-image {
+    position: absolute;
+    width: 25vw;
+    margin-left: 38vw;
+    margin-top: 5%;
+}
+
+.slick-dots li button:before {
+    font-size: 20px;
+    line-height: 20px;
+
+}
+
+/* Email link styling for Info Page */
+.email-hover {
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.email-hover:hover {
+    opacity: 1;
+}
+
+/* Styling for link to open Unquiet Mind page */
+.unquiet-link {
+    font-weight: 500;
+    opacity: 0.5;
+    transition: 250ms;
+}
+
+.unquiet-link:hover {
+    opacity: 1;
+    transition: 250ms;
+}
+
+.pdf-hover {
+    opacity: 0.5;
+    transition: 250ms;
+}
+
+.pdf-hover:hover {
+    font-weight: 500;
+    opacity: 1;
+    transition: 250ms;
+}
+
+
+
+
+.mouse {
+    background: #4e555900 linear-gradient(transparent 0%, transparent 0%, #fff 0%, #fff 0%);
+    position: fixed;
+    width: 2.65vh;
+    height: 4.49vh;
+    border-radius: 10.2vh;
+    background-size: 100% 200%;
+    margin-left: 50vw;
+    margin-top: 90vh;
+}
+
+.mouse:before,
+.mouse:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+
+.mouse:after {
+    background-color: rgb(109, 109, 109);
+    width: 0.8vh;
+    height: 0.8vh;
+    margin-left: 0.97vh;
+    border-radius: 0.5vh;
+    animation: trackBallSlide 5s linear infinite;
+}
+
+@keyframes trackBallSlide {
+    0% {
+        opacity: 1;
+        transform: scale(1) translateY(-20px);
+    }
+
+    6% {
+        opacity: 1;
+        transform: scale(0.9) translateY(5px);
+    }
+
+    14% {
+        opacity: 0;
+        transform: scale(0.4) translateY(40px);
+    }
+
+    15%,
+    19% {
+        opacity: 0;
+        transform: scale(0.4) translateY(-20px);
+    }
+
+    28%,
+    29.99% {
+        opacity: 1;
+        transform: scale(1) translateY(-20px);
+    }
+
+    30% {
+        opacity: 1;
+        transform: scale(1) translateY(-20px);
+    }
+
+    36% {
+        opacity: 1;
+        transform: scale(0.9) translateY(5px);
+    }
+
+    44% {
+        opacity: 0;
+        transform: scale(0.4) translateY(40px);
+    }
+
+    45%,
+    49% {
+        opacity: 0;
+        transform: scale(0.4) translateY(-20px);
+    }
+
+    58%,
+    59.99% {
+        opacity: 1;
+        transform: scale(1) translateY(-20px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale(1) translateY(-20px);
+    }
+
+    66% {
+        opacity: 1;
+        transform: scale(0.9) translateY(5px);
+    }
+
+    74% {
+        opacity: 0;
+        transform: scale(0.4) translateY(40px);
+    }
+
+    75%,
+    79% {
+        opacity: 0;
+        transform: scale(0.4) translateY(-20px);
+    }
+
+    88%,
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(-20px);
+    }
+}

@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>Recollection — Carl Strümpfer</title>
+    <meta name="description" content="Carl Strümpfer - Recollection (Game Design)">
+    <meta name="Carl Strümpfer" content="">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700" rel="stylesheet">
+
+    <!-- CSS -->
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Skeleton CSS -->
+    <link rel="stylesheet" href="css/skeleton.css">
+    <!-- Plyr CSS -->
+    <link rel="stylesheet" href="css/plyr.css">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/recollection_favicon.png">
+
+    <!-- Change Project 1 active on first page  -->
+    <style>
+        #proj-nav-1-active {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Fade Page in on load -->
+    <script>
+        document.body.className += ' fade-out';
+    </script>
+
+    <!-- Navbar -->
+    <div class="container navbar" id="navbar">
+        <div class="one-third column" style="height: 5vh; padding-top: 1vh;">
+            <div class="work-nav">
+                <a href="index.html#work">
+                    <h6 class="work-nav-text" id="work-nav-text">Work</h6>
+                </a>
+            </div>
+        </div>
+        <div class="one-third column" style="height: 5vh;">
+            <a href="index.html">
+                <h5 class="name-nav" id="name-nav">Carl Strümpfer</h5>
+            </a>
+        </div>
+        <div class="one-third column" style="height: 5vh; padding-top: 1vh;">
+            <div class="info-nav">
+                <a href="info.html">
+                    <h6 class="info-nav-text" id="info-nav-text">Info</h6>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Nav -->
+    <div class="container project-navbar" style="z-index: 10; margin-top: 21.5vh; width:10vw;">
+        <ul>
+            <li><a href="#page-1" class="proj-link">
+                    <h5 class="nav-list" id="proj-nav-1">Overview</h5>
+                </a></li>
+            <li><a href="#page-2" class="proj-link">
+                    <h5 class="nav-list" id="proj-nav-2">Problem</h5>
+                </a></li>
+            <li><a href="#page-3" class="proj-link">
+                    <h5 class="nav-list" id="proj-nav-3">The Folktale</h5>
+                </a></li>
+            <li><a href="#page-4" class="proj-link">
+                    <h5 class="nav-list" id="proj-nav-4">Concepts</h5>
+                </a></li>
+            <li><a href="#page-5" class="proj-link">
+                    <h5 class="nav-list" id="proj-nav-5">Bai & Father</h5>
+                </a></li>
+            <li><a href="#page-6" class="proj-link">
+                    <h5 class="nav-list" id="proj-nav-6">The Brother</h5>
+                </a></li>
+            <li><a href="#page-7" class="proj-link">
+                    <h5 class="nav-list" id="proj-nav-7">Bone Beasts</h5>
+                </a></li>
+            <li><a href="#page-8" class="proj-link">
+                    <h5 class="nav-list" id="proj-nav-8">Traps</h5>
+                </a></li>
+            <li><a href="#page-9" class="proj-link">
+                    <h5 class="nav-list" id="proj-nav-9">Environment</h5>
+                </a></li>
+            <li><a href="#page-10" class="proj-link">
+                    <h5 class="nav-list" id="proj-nav-10">Gameplay</h5>
+                </a></li>
+            <li><a href="#page-11" class="proj-link">
+                    <h5 class="nav-list" id="proj-nav-11">Design</h5>
+                </a></li>
+            <li><a href="#page-12" class="proj-link">
+                    <h5 class="nav-list" id="proj-nav-12">Walkthrough</h5>
+                </a></li>
+        </ul>
+    </div>
+
+    <!-- Main Page -->
+    <div class="section page-1" id="page-1">
+        <video autoplay muted loop id="myVideo">
+            <source src="video/Recollection_Hero_Video.webm" type="video/webm">
+        </video>
+        <div class="container main-page-container">
+            <div class="row">
+                <div class="six-half columns">
+                    <h1 class="dtrh-title">Recollection</h1>
+                </div>
+            </div>
+            <div class="row" style="color:#fff">
+                <div class="eight columns">
+                    <h6 style="font-weight: 500; margin-bottom:-0vh;">Overview</h3>
+                        <h5>A game about finding the present self in the past</h5>
+                </div>
+                <div class="two columns">
+                    <h6 style="font-weight: 500; margin-bottom:-0vh;">Audience</h6>
+                    <h6>Gamers <br>Platformer fans <br>Narrative junkies</h6>
+                </div>
+                <div class="two columns">
+                    <h6 style="font-weight: 500; margin-bottom:-0vh;">Keywords</h6>
+                    <h6>Game Design <br>Narrative Design <br>Character Design</h5>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Problem Page -->
+    <div class="section page-2" id="page-2" style="background-color:#fff;">
+        <div class="container">
+            <div class="row" style="height:100vh; padding-top: 35vh;">
+                <div class="four columns">
+                    <h3>Problem</h3>
+                    <p> Independently developed videogames are a rarity in South Africa, due to a very small market for
+                        locally-produced digital content. Found even less is videogames that are based in the realm of
+                        the African story, which has so many unique narratives to tell to South Africans and the world.</p>
+                </div>
+                <div class="four columns">
+                    <h3>Brief</h3>
+                    <p>Create a platformer game with a narrative centered around an African folktale, which forms the
+                        basis of the game’s design and narrative design. The game should feature a series of obstacles
+                        and enemies which can present a challenge to the player.</p>
+                </div>
+                <div class="four columns">
+                    <h3>Solution</h3>
+                    <p>Recollection is a story-driven platformer game designed to combine a strong narrative and
+                        entertaining gameplay for a unique experience. The game follows the story of Bai and how he
+                        must overcome countless obstacles in order to save his father.
+                        <br><br>
+                        Along the way he will have face corrupted beasts, deadly traps and desirous siblings vying for
+                        their share of their father’s glory. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Folktale Page -->
+    <div class="section page-3" id="page-3" style="height: 100vh;">
+        <div class="container">
+            <div class="row video-row">
+                <div class="nine columns">
+                    <h1>The Folktale</h1>
+                    <h5>Bai is told that his Father died in the hunt, but he refuses to believe it. He is a very small
+                        boy, but he has a huge heart and thus sets out on a quest to find his lost Father. He has to
+                        find every piece of his Father; his bones, flesh, blood, breath and voice in order to bring him
+                        back to life. <br><br> On his journey, the skeleton of his Father will help him to fight off
+                        enemies that stand in his way, fuelled by his memories. Each part of his Father is kept in a
+                        terrible realm that encapsulates the essence of the part required. <br><br> The realm is
+                        guarded over by Bai's jealous older Brothers who want to keep the glory of saving their Father
+                        all to themselves. Each Brother is so infatuated with their contribution, that they shaped
+                        their domains to be a monument to them.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Concepts and Sketches Page -->
+    <div class="section page-4" id="page-4" style="height: 130vh">
+        <div class="container">
+            <div class="row content-row">
+                <div class="eleven columns">
+                    <h1>Concepts and Sketches</h1>
+                    <h5>These were some of the design concepts that were considered for the characters, <br> enemies,
+                        traps and environmental design. They represent the direction that the <br> visual style began
+                        to develop into once the narative had been finalised.</h5>
+                    <div class="concept-images" style="width: 75vw;">
+                        <div><img src="img/Recollection/Concepts_03.png" alt="">
+                            <h5>Bai early concepts</h5>
+                            <h6 style="margin-top: -2%">Various character concepts that were considered for Bai. Many
+                                of these were based on Iberian masks.</h6>
+                        </div>
+                        <div><img src="img/Recollection/Concepts_02.png" alt="">
+                            <h5>Bai final concepts</h5>
+                            <h6 style="margin-top: -2%">Further development of bai as a character. The style of his
+                                face as an animal-like skull with deep set sockets. It has also been decided that
+                                he will wear a little cloak that flaps as he runs.</h6>
+                        </div>
+                        <div><img src="img/Recollection/Concepts_08.png" alt="">
+                            <h5>Brother early concepts</h5>
+                            <h6 style="margin-top: -2%">These concepts show the development of the Brothers as a series
+                                of enemies that Bai will have to face. This particular set of designs clearly
+                                links to the animal-skull theme seen in Bai's design. The styles are heavily
+                                influenced by traditional African ceremonial dres.</h6>
+                        </div>
+                        <div><img src="img/Recollection/Concepts_06.png" alt="">
+                            <h5>Brother final concepts</h5>
+                            <h6 style="margin-top: -2%">The concept for the Brother was further refined, and is seen
+                                here to be much closer to the final state. He carries a weapon that is inspired by
+                                a reed instrument. His beaklike head creates an evil demeanour, supplemented by
+                                his swarthy cloak.</h6>
+                        </div>
+                        <div><img src="img/Recollection/Concepts_05.png" alt="">
+                            <h5>Environmental assets concepts</h5>
+                            <h6 style="margin-top: -2%">The first level of the game plays out in the world of the Bone
+                                Brother, and therfore the environment assets were built around the idea of death,
+                                decay and dereliction.</h6>
+                        </div>
+                        <div><img src="img/Recollection/Concepts_04.png" alt="">
+                            <h5>Environmental assets concepts</h5>
+                            <h6 style="margin-top: -2%">The level assets were also designed to create depth and
+                                immersion in the world. Shown here is a way to create a foreground, middleground
+                                and background with possibilities for parallax as the player moves through the
+                                ribcage.</h6>
+                        </div>
+                        <div><img src="img/Recollection/Concepts_07.png" alt="">
+                            <h5>Traps and obstacles concepts</h5>
+                            <h6 style="margin-top: -2%">In order to create a challenge for the player, traps and
+                                obstacles were designed. The breaking bone platform and the spikes pits are
+                                frequently found in the first level.</h6>
+                        </div>
+                    </div>
+                    <img src="img/arrow_prev.svg" alt="" class="prev prev-arrow">
+                    <img src="img/arrow_next.svg" alt="" class="next next-arrow" style="margin-top: -50vh; margin-left: 77vw;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bai & Father Page -->
+    <div class="section page-5" id="page-5" style="height: 440vh;">
+        <img src="img/Recollection/Bai_and_Father.png" alt="" class="bai-center-image">
+        <div class="container">
+            <div class="row content-row">
+                <div class="four columns">
+                    <h1>Bai</h1>
+                    <h5>Bai, like so many boys, has always looked up to his father. He refuses to believe that his
+                        father is dead, and will do everything in his power to prove his brothers wrong. <br> <br> Bai
+                        is determined to find each and every part of his father, in order to bring him back, no matter
+                        the cost.</h5>
+                </div>
+            </div>
+            <div class="row content-row">
+                <div class="four columns" style="margin-left:53vw; margin-top: 25vh;">
+                    <h1>The Father</h1>
+                    <h5>Bai’s father is a hunter and head of their family. In a fateful hunt, he perishes, leaving
+                        behind Bai and his five older brothers. <br> <br> He vows to protect his son at all times, to
+                        repay him for his unwavering loyalty. The father can exist because his memory is kept alive in
+                        the mind of Bai.</h5>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20vh;">
+                <div class="eleven columns">
+                    <h2>Bai & The Father spritesheets</h2>
+                    <div class="bai-images" style="width: 75vw;">
+                        <div><img src="img/Recollection/Bai_Attack_Spritesheet.jpg" alt="">
+                            <h5>Attack cycle</h5>
+                            <h6>Bai is able to attack enemies with the help of his dad.
+                                When Bai is in danger, he gets scared, and dodges
+                                any blows. His Father can swoop in at any moment
+                                and swing his axe down, swiftly obliterating any foes.</h6>
+                        </div>
+                        <div><img src="img/Recollection/Bai_Run_Spritesheet.jpg" alt="">
+                            <h5>Run cycle</h5>
+                            <h6>Bai makes use of three basic animation states - run, jump and idle. His diminutive
+                                stature requires him to run faster to cover equal distances to anyone else. </h6>
+                        </div>
+                        <div><img src="img/Recollection/Bai_Jump_Spritesheet.jpg" alt="">
+                            <h5>Jump cycle</h5>
+                            <h6>Bai makes use of three basic animation states - run, jump and idle. His diminutive
+                                stature requires him to run faster to cover equal distances to anyone else. </h6>
+                        </div>
+                        <div><img src="img/Recollection/Bai_Idle_Spritesheet.jpg" alt="">
+                            <h5>Idle cycle</h5>
+                            <h6>Bai makes use of three basic animation states - run, jump and idle. His diminutive
+                                stature requires him to run faster to cover equal distances to anyone else. </h6>
+                        </div>
+                        <div><img src="img/Recollection/Bai_Death_Spritesheet.png" alt="">
+                            <h5>Death cycle</h5>
+                            <h6>When Bai takes too much damage, and the darkness close in around him, he will
+                                enter a death state.</h6>
+                        </div>
+                    </div>
+                    <img src="img/arrow_prev.svg" alt="" class="prev1 prev-arrow" style="margin-top: -50vh">
+                    <img src="img/arrow_next.svg" alt="" class="next1 next-arrow" style="margin-top: -50vh; margin-left: 77vw;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="eleven columns">
+                    <h3><br><br><br> Sprite animations <br><br><br></h3>
+                </div>
+                <div class="five columns">
+                    <h4 style="text-align:center">Run Cycle</h4>
+                    <video autoplay muted loop style="width: 100%;">
+                        <source src="video/Recollection/BAI_RUN.webm" type="video/webm">
+                    </video>
+                </div>
+                <div class="five columns">
+                    <h4 style="text-align:center">Jump Cycle</h4>
+                    <video autoplay muted loop style="width: 100%;">
+                        <source src="video/Recollection/BAI_JUMP.webm" type="video/webm">
+                    </video>
+                </div>
+
+                <div class="five columns">
+                    <h4 style="text-align:center"><br><br><br> Idle Cycle</h4>
+                    <video autoplay muted loop style="width: 100%;">
+                        <source src="video/Recollection/BAI_IDLE.webm" type="video/webm">
+                    </video>
+                </div>
+                <div class="five columns">
+                    <h4 style="text-align:center"><br><br><br> Death Cycle</h4>
+                    <video autoplay muted loop style="width: 100%;">
+                        <source src="video/Recollection/BAI_DEAD.webm" type="video/webm">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- The Brother Page -->
+    <div class="section page-6" id="page-6" style="height: 380vh;">
+        <div class="container">
+            <div class="row content-row">
+                <div class="four columns">
+                    <h1>The Brother</h3>
+                        <h5>He is the youngest of Bai’s elder brothers, who is determined to stop Bai in
+                            his quest to
+                            bring back their father, in order for him to win his father’s adoration. <br><br>
+                            He stands
+                            in the way of Bai being able to pass to the next section of his quest, and must
+                            therefore
+                            be defeated. He lives in the realm of the bones, a dark and terrifying monument
+                            to all
+                            things dead and decaying.</h5>
+                </div>
+                <div class="six columns">
+                    <img src="img/Recollection/Boss_Brother.png" style="width: 100%">
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20vh;">
+                <div class="eleven columns">
+                    <h2>The Brother spritesheets</h2>
+                    <div class="brother-images" style="width: 75vw;">
+                        <div><img src="img/Recollection/Boss_Attack_Spritesheet.png" alt="">
+                            <h5>Attack cycle</h5>
+                            <h6>The Brother uses is reed-like staff to fire off energy orbs, that can
+                                damage Bai.
+                                This is his primary attack.</h6>
+                        </div>
+                        <div><img src="img/Recollection/Boss_Death_Spritesheet.png" alt="">
+                            <h5>Death cycle</h5>
+                            <h6>When the Brother dies, he releases the essence that kept him alive,
+                                allowing Bai
+                                to collect the orb left behind, in order to complete his journey</h6>
+                        </div>
+                        <div><img src="img/Recollection/Boss_Idle_Spritesheet.png" alt="">
+                            <h5>Idle cycle</h5>
+                            <h6>The Brother waits patiently for Bai to approach, staying idle.</h6>
+                        </div>
+                    </div>
+                    <img src="img/arrow_prev.svg" alt="" class="prev2 prev-arrow" style="margin-top: -50vh">
+                    <img src="img/arrow_next.svg" alt="" class="next2 next-arrow" style="margin-top: -50vh; margin-left: 77vw;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="eleven columns">
+                    <h3><br><br>Sprite animations <br><br><br></h3>
+                </div>
+                <div class="five columns">
+                    <h4 style="text-align:center">Run Cycle</h4>
+                    <video autoplay muted loop style="width: 100%;">
+                        <source src="video/Recollection/BOSS_ATTACK.webm" type="video/webm">
+                    </video>
+                </div>
+                <div class="five columns">
+                    <h4 style="text-align:center"> Idle Cycle</h4>
+                    <video autoplay muted loop style="width: 100%;">
+                        <source src="video/Recollection/BOSS_IDLE.webm" type="video/webm">
+                    </video>
+                </div>
+
+                <div class="five columns" style="margin-left: 25vw;">
+                    <h4 style="text-align:center"><br><br><br>Death Cycle</h4>
+                    <video autoplay muted loop style="width: 100%;">
+                        <source src="video/Recollection/BOSS_DEATH.webm" type="video/webm">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bone Beasts Page -->
+    <div class="section page-7" id="page-7" style="height: 340vh">
+        <div class="container">
+            <div class="row content-row">
+                <div class="four columns">
+                    <h1>Bone Beasts</h1>
+                    <h5>These terrible creatures tower above the diminutive Bai, serving the will of Bai’s
+                        brother.
+                        They
+                        consist of a mismatch of bones and parts from a number of dead beasts. <br><br>
+                        They have only
+                        one directive – kill Bai. </h5>
+                </div>
+                <div class="six columns">
+                    <img src="img/Recollection/Bone Beast.png" style="width: 100%">
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20vh;">
+                <div class="eleven columns">
+                    <h2>Bone Beast spritesheets</h2>
+                    <div class="bone-images" style="width: 75vw;">
+                        <div><img src="img/Recollection/Enemy_Run_Spritesheet.jpg" alt="">
+                            <h5>Run cycle</h5>
+                            <h6>A Bone Beast may charge at its enemy, catching it off guard</h6>
+                        </div>
+                        <div><img src="img/Recollection/Enemy_Attack_Spritesheet.jpg" alt="">
+                            <h5>Attack cycle</h5>
+                            <h6>The Bone Beasts attack with a downward slashing motion from the front legs,
+                                which
+                                can devestate an unassuming foe</h6>
+                        </div>
+                        <div><img src="img/Recollection/Enemy_Death_Spritesheet.jpg" alt="">
+                            <h5>Death cycle</h5>
+                            <h6>Being made of bone, the Beasts simply collapse into a pile of bones, the
+                                controlling
+                                spirt within them having been defeated.</h6>
+                        </div>
+                        <div><img src="img/Recollection/Enemy_Idle_Spritesheet.jpg" alt="">
+                            <h5>Idle cycle</h5>
+                            <h6>The Beasts will wait in the darkness, ready to attack an unsuspecting foe.</h6>
+                        </div>
+                    </div>
+                    <img src="img/arrow_prev.svg" alt="" class="prev3 prev-arrow" style="margin-top: -50vh">
+                    <img src="img/arrow_next.svg" alt="" class="next3 next-arrow" style="margin-top: -50vh; margin-left: 77vw;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="eleven columns">
+                    <h3><br><br> Sprite animations <br><br><br></h3>
+                </div>
+                <div class="five columns">
+                    <h4 style="text-align:center">Run Cycle</h4>
+                    <video autoplay muted loop style="width: 100%;">
+                        <source src="video/Recollection/ENEMY_ATTACK.webm" type="video/webm">
+                    </video>
+                </div>
+                <div class="five columns">
+                    <h4 style="text-align:center"> Idle Cycle</h4>
+                    <video autoplay muted loop style="width: 100%;">
+                        <source src="video/Recollection/ENEMY_IDLE.webm" type="video/webm">
+                    </video>
+                </div>
+
+                <div class="five columns" style="margin-left: 25vw;">
+                    <h4 style="text-align:center"><br><br><br>Run Cycle</h4>
+                    <video autoplay muted loop style="width: 100%;">
+                        <source src="video/Recollection/ENEMY_RUN.webm" type="video/webm">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Traps and Obstacles Page -->
+    <div class="section page-8" id="page-8" style="height:230vh">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <h1>Traps and Obstacles <br><br><br><br><br></h1>
+                    <h3>Spike Pits</h3>
+                    <h5>Obstacles such as spike pits will make it devastating for the character to fall off specific
+                        platforms as these broken bones will slowly kill Bai. These spikes will also be placed on walls
+                        to stop Bai from over jumping specific obstacles.</h5>
+                </div>
+                <div class="seven columns">
+                    <img src="img/Recollection/Spike_Pits-80.jpg" alt="" style="width: 90%; margin-top:20vh; margin-left: 5vw">
+                </div>
+            </div>
+            <div class="row content-row" style="margin-top: 20vh">
+                <div class="four columns">
+                    <h3><br><br> Drop Spikes</h3>
+                    <h5>These spike platforms will come down from the ceiling; if you happen to get caught under one of
+                        these it will slowly start to kill Bai. You will have to run a gauntlet to get past these three
+                        obstacles.</h5>
+                </div>
+                <div class="seven columns">
+                    <img src="img/Recollection/Drop_Spike-80.jpg" alt="" style="width: 20%; margin-top:5vh; margin-left: 18vw;">
+                </div>
+            </div>
+            <div class="row content-row" style="margin-top: 20vh">
+                <div class="four columns">
+                    <h3>Breaking Platforms</h3>
+                    <h5>For these platform you will be able to notice a slight crack in the centre of them. However if
+                        you are moving to fast they will go unnoticed and the player might fall into the trap below.
+                        With this in mind it might not always be a negative thing to fall through these platforms.</h5>
+                </div>
+                <div class="seven columns">
+                    <img src="img/Recollection/Breaking_Platform-80.jpg" alt="" style="width: 80%; margin-top:5vh; margin-left: 5vw;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Environment Page -->
+    <div class="section page-9" id="page-9" style="height: 250vh;">
+        <div class="container">
+            <div class="row video-row">
+                <div class="eight columns">
+                    <h1>Environmernt</h1>
+                    <h5>A series of environmental assets were created to bring the game to life and provide a sense of
+                        depth within the environment. The assets were all designed around the theme of death, decay and
+                        thereby bones were a central aspect of this. The dark, blurred assets are background and
+                        foreground assets, while the lighter ones are means to fill in the middleground.<br><br></h5>
+                </div>
+                <div class="eleven columns">
+                    <img src="img/Recollection/Environment_Assets-80.jpg" style="width:100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gameplay Page -->
+    <div class="section page-10" id="page-10" style="height: 140vh;">
+        <div class="container">
+            <div class="row video-row">
+                <div class="eight columns">
+                    <h1>Gameplay</h1>
+                    <h5>The game uses a very simple control scheme that translates fluently between publishing
+                        platforms. <br><br></h5>
+                </div>
+                <div class="eleven columns">
+                    <img src="img/Recollection_Gameplay_Page.svg" style="width:100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Design Elements Page -->
+    <div class="section page-11" id="page-11" style="height:430vh;">
+        <div class="container">
+            <div class="row content-row">
+                <div class="four columns">
+                    <h1>Design Elements</h1>
+                </div>
+                <div class="eleven columns">
+                    <img src="img/Recollection_Design_Page.svg" style="width:80%; margin-left:-3vw;">
+                </div>
+            </div>
+
+        </div>
+        <video autoplay muted loop style="width: 100%; margin-top: 10vh;">
+            <source src="video/Recollection_Walkthrough_Hero.webm" type="video/webm">
+        </video>
+    </div>
+
+    <!-- Walkthrough Page -->
+    <div class="section page-12" id="page-12" style="height: 80vh; padding-top:15vh">
+        <div class="container">
+            <div class="row content-row">
+                <div class="four columns">
+                    <h1>Walkthrough</h1>
+                    <h5>A gameplay walkthrough of the entire first level of the game, showcasing the various enemies,
+                        trap types and obstacles that a player will face.</h5>
+                </div>
+                <div class="eight columns">
+                    <div class="plyr__video-embed" id="player">
+                        <iframe src="https://www.youtube.com/embed/2jRcjuOoC_w?modestbranding=1;showinfo=0;rel=0;HD=1"
+                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Project Bottom Nav -->
+        <div class="project-bottom-nav">
+            <a href="downtherabbithole.html">
+                <h5 class="bottom-nav-text">Down the Rabbit Hole</h5>
+            </a>
+            <a href="appleenact.html">
+                <h5 class="bottom-nav-text">Apple Enact</h5>
+            </a>
+            <a href="">
+                <h5 class="bottom-nav-text" style="opacity: 1;">Recollection</h5>
+            </a>
+            <a href="meanderingsofanunquietmind.html">
+                <h5 class="bottom-nav-text">Meanderings of an Unquiet Mind</h5>
+            </a>
+            <a href="abide.html">
+                <h5 class="bottom-nav-text">Abide</h5>
+            </a>
+            <a href="amidst.html">
+                <h5 class="bottom-nav-text">Amidst</h5>
+            </a>
+            <a href="/index.html#showreel">
+                <h5 class="bottom-nav-text">Showreel</h5>
+            </a>
+        </div>
+        <h6 style="text-align:center;">Made with ❤ by me. &nbsp; &nbsp; &nbsp;© Carl Strümpfer 2018</h6>
+    </div>
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- JavaScript -->
+    <!-- Screenfull JS -->
+    <script src="js/screenfull.js"></script>
+    <!-- Plyr JS -->
+    <script src="js/plyr.min.js"></script>
+    <!-- In-View JS -->
+    <script src="js/in-view.min.js"></script>
+    <!-- Slick JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Project Nav JS -->
+    <script src="js/projectnav.js"></script>
+
+    <!-- Smooth scrolling sections -->
+    <script>
+        $(document).ready(function () {
+            $(".proj-link").on('click', function (event) {
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+                    // Store hash
+                    var hash = this.hash;
+                    //Animate scroll
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+
+    <!-- Fade page in on load -->
+    <script>
+        $(function () {
+            $('body').removeClass('fade-out');
+        });
+    </script>
+
+    <!-- Make navbar elements white and navbar transparent on first page -->
+    <script>
+        //Get window height
+        var winY2 = window.innerHeight;
+        inView.offset({
+            top: winY2 / 2.8,
+            bottom: winY2 / 1.5
+        });
+        // Page 1
+        inView('.page-1')
+            .on('enter', el => {
+                document.getElementById("work-nav-text").style.color = "#fff";
+                document.getElementById("name-nav").style.color = "#fff";
+                document.getElementById("info-nav-text").style.color = "#fff";
+                document.getElementById("navbar").style.backgroundColor = "#ffffff00";
+            });
+        // Page 2
+        inView('.page-1')
+            .on('exit', el => {
+                document.getElementById("work-nav-text").style.color = "#000";
+                document.getElementById("name-nav").style.color = "#000";
+                document.getElementById("info-nav-text").style.color = "#000";
+                document.getElementById("navbar").style.backgroundColor = "white";
+            });
+    </script>
+
+    <!-- Slick image slider script -->
+    <script>
+        $(document).ready(function () {
+            $('.concept-images').slick({
+                infinite: true,
+                speed: 500,
+                nextArrow: $('.next'),
+                prevArrow: $('.prev'),
+            });
+            $('.bai-images').slick({
+                infinite: true,
+                speed: 500,
+                nextArrow: $('.next1'),
+                prevArrow: $('.prev1'),
+            });
+            $('.brother-images').slick({
+                infinite: true,
+                speed: 500,
+                nextArrow: $('.next2'),
+                prevArrow: $('.prev2'),
+            });
+            $('.bone-images').slick({
+                infinite: true,
+                speed: 500,
+                nextArrow: $('.next3'),
+                prevArrow: $('.prev3'),
+            });
+        });
+    </script>
+</body>
+
+</html>
